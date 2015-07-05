@@ -124,7 +124,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-    background-color:#777;
+    background-color:#f7f7f7;
 }
 
 .navbar-default .nav li a {
@@ -136,20 +136,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-    color:#fff;
+    color:#222;
     outline:0;
 
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius:0;
-    color:#fff;
-    background-color:#fed136
+    color:#222;
+    background-color:#f7f7f7;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
     color:#fff;
-    background-color:#fec503
+    background-color:#f7f7f7
 }
 
 @media (min-width:768px) {
@@ -293,18 +293,18 @@ section {
 }
 
 aside.clients img {
-    margin:50px auto
+    margin:50px auto;
+    background-color: #f7f7f7;
 }
 
 section#contact {
-    background-color:#222;
-    background-image:url(../img/map-image.png);
+    <!--background-image:url(../img/map-image.png);-->
     background-position:center;
     background-repeat:no-repeat
 }
 
 section#contact .section-heading {
-    color:#fff
+    color:#222
 }
 
 section#contact .form-group {
@@ -362,14 +362,17 @@ section#contact .text-danger {
 
 footer {
     padding:25px 0;
-    text-align:center
+    text-align:center;
+    color:#f7f7f7;
 }
 
 footer span.copyright {
     line-height:40px;
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
-    text-transform:none
+    text-transform:none;
+    text-align:center;
+
 }
 
 footer ul.quicklinks {
@@ -378,6 +381,7 @@ footer ul.quicklinks {
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     text-transform:none
+        
 }
 
 ul.social-buttons {
@@ -409,12 +413,12 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 
 ::-moz-selection {
     text-shadow:none;
-    background:#fed136
+    background:#000
 }
 
 ::selection {
     text-shadow:none;
-    background:#fed136
+    background:#000
 }
 
 img::selection {
@@ -426,5 +430,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color:#fed136
+    webkit-tap-highlight-color:#000
 }
