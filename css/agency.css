@@ -124,7 +124,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-    background-color:#f7f7f7;
+    background-color:#000;
 }
 
 .navbar-default .nav li a {
@@ -136,7 +136,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-    color:#222;
+    color:#f7f7f7;
     outline:0;
 
 }
@@ -238,12 +238,12 @@ header .intro-text .intro-heading {
     font-weight:700;
     font-size:75px;
     line-height:75px;
-    margin-bottom:50px
+    margin-bottom:25px
 }
 }
 
 section {
-    padding:100px 0
+    padding:50px 0;
 }
 
 section h2.section-heading {
@@ -258,7 +258,7 @@ section h3.section-subheading {
     text-transform:none;
     font-style:italic;
     font-weight:400;
-    margin-bottom:75px
+    margin-bottom:50px
 }
 
 @media (min-width:768px) {
@@ -272,61 +272,20 @@ section {
     text-transform:none
 }
 
-.team-member {
-    text-align:center;
-    margin-bottom:50px
-}
-
-.team-member img {
-    margin:0 auto;
-    border:7px solid #fff
-}
-
-.team-member h4 {
-    margin-top:25px;
-    margin-bottom:0;
-    text-transform:none
-}
-
-.team-member p {
-    margin-top:0
-}
-
 aside.clients img {
     margin:50px auto;
     background-color: #f7f7f7;
 }
 
 section#contact {
-    <!--background-image:url(../img/map-image.png);-->
-    background-position:center;
-    background-repeat:no-repeat
+    padding-top:inherit;
+    padding: 50px 0;
 }
 
 section#contact .section-heading {
     color:#222
 }
 
-section#contact .form-group {
-    margin-bottom:25px
-}
-
-section#contact .form-group input,section#contact .form-group textarea {
-    padding:20px
-}
-
-section#contact .form-group input.form-control {
-    height:auto
-}
-
-section#contact .form-group textarea.form-control {
-    height:236px
-}
-
-section#contact .form-control:focus {
-    border-color:#fed136;
-    box-shadow:none
-}
 
 section#contact ::-webkit-input-placeholder {
     font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
