@@ -430,18 +430,15 @@ form {
 }
 
 .input {
-    display:flex;
-    align-items:center
 }
 
 .button {
     height:44px;
     border:none;
-
 }
 
 #email {
-    width:75%;
+    width:50%;
     background:#f7f7f7;
     font-family:inherit;
     color:#737373;
@@ -451,7 +448,6 @@ form {
 }
 
 #submit {
-    width:25%;
     height:46px;
     background:#222;
     font-family:inherit;
