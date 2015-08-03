@@ -33,6 +33,9 @@ section {
 }
 input.form-control {
   border-radius: 0 !important;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: small;
+  font-weight: 300;
 }
 input.form-control:focus {
   border-color: #01bedb;
@@ -944,7 +947,7 @@ aside.cta-quote span.quote {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 0;
   border-bottom: 1px solid #e1e1e1;
 }
 .floating-label-form-group input,
@@ -955,7 +958,7 @@ aside.cta-quote span.quote {
   padding-left: 0;
   border: none;
   border-radius: 0;
-  font-size: 1.5em;
+  font-size: 1em;
   background: none;
   box-shadow: none !important;
   resize: none;
@@ -991,13 +994,14 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e1e1e1;
 }
 footer.footer {
-  color: rgba(255, 255, 255, 0.7);
-  background: no-repeat center center scroll;
+color: black;
+    background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   padding: 50px 0 20px;
+    
 }
 footer.footer a {
   color: rgba(255, 255, 255, 0.7);
@@ -1007,9 +1011,12 @@ footer.footer a:hover {
 }
 footer.footer p {
   font-size: 22px;
+  color: white;
+  font-size: 1.5em;
 }
 footer.footer .contact-details {
   margin: 75px 0;
+
 }
 footer.footer .social {
   margin-bottom: 75px;
