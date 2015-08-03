@@ -281,34 +281,60 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             </div>
             <div class="row content-row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="insightly_web_to_contact" action="https://sparkbureau.insight.ly/WebToContact/Create" method="post">
+                        <input type="hidden" name="formId" value="/xSWr8B39YdS10o36hBbZg=="/>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
+                                <label  for="insightly_firstName"> First Name: </label>
+                                <input  class="form-control" placeholder="First Name" id="insightly_firstName" name="FirstName" type="text"/>
+
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
+<label for="insightly_lastName">Last Name:</label>
+<input class="form-control" placeholder="Last Name" id="insightly_lastName" name="LastName" type="text"/>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+<label for="insightly_organization">Organisation:</label>
+<input class="form-control" placeholder="Organisation" id="insightly_organization" name="Organization" type="text"/>
+                            </div>
+                        </div>
+                                                <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+<label for="insightly_role">Role:</label>
+<input class="form-control" placeholder="Role" id="insightly_role" name="role" type="text"/>
                             </div>
                         </div>
 
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
+<input type="hidden" name="emails[0].Label" value="Work"/>
+<label for="email[0]_Value">Email: </label>
+<input class="form-control" placeholder="Email" id="emails[0]_Value" name="emails[0].Value" type="text"/>
+                            </div>
+                        </div>
+                       <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+<input type="hidden" name="phones[0].Label" value="Work"/>
+<label for="phones[0]_Value">Phone: </label>
+<input class="form-control" placeholder="Phone" id="phones[0]_Value" name="phones[0]_Value" type="text"/>
+                            </div>
+                        </div>
+
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+<label for="insightly_background">Message: </label>
+<br>
+<input class="form-control" placeholder="Message" id="insightly_background" name="background"/>
                             </div>
                         </div>
                         <br>
-                        <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-outline-dark">Send</button>
+                                <input type="submit" class="btn btn-outline-dark" value="Submit"/>
                             </div>
                         </div>
                     </form>
@@ -318,7 +344,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     </section>
     <!--<a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
 -->
-    <footer class="footer" style="background-image: url('assets/img/bg-footer-bw.jpg')">
+    <footer class=" bg-dark">
         <div class="container text-center">
             <div class="row">
                 <!--<div class="col-md-4 contact-details">
@@ -327,7 +353,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
                 </div>
 -->
                 <div class="contact-details">
-                    <h4><i class="fa fa-map-marker"></i> opening 1 <sup>st</sup> september</h4>
+                    <h4><i class="fa fa-map-marker"></i> opening this september</h4>
                     <p>15-17 Ocean Street
                         <br>Maroochydore QLD 4558
                         <br>Australia
